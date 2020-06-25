@@ -1,0 +1,62 @@
+{
+    "editor.detectIndentation": false,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120,
+    "editor.renderWhitespace": "boundary",
+    "editor.wrappingIndent": "indent",
+    "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+    "editor.fontWeight": "400",
+    "editor.fontLigatures": true,
+    "editor.rulers": [80],
+    "editor.minimap.showSlider": "always",
+
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.activeIconPack": "none",
+    "workbench.colorTheme": "Plastic - deprioritised punctuation",
+    "workbench.startupEditor": "none",
+
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+
+    "files.autoSave": "afterDelay",
+    "files.associations": {
+        "*.json": "jsonc"
+    },
+
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.untrackedChanges": "separate",
+
+    "python.linting.enabled": false,
+    "python.terminal.executeInFileDir": true,
+    "python.terminal.launchArgs": ["-i"],
+
+    "[markdown]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 120
+    },
+
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.runPythonREPL",
+            "interval": 100,
+            "sequence": [
+                "workbench.action.terminal.kill",
+                "python.execInTerminal"
+            ]
+        }
+    ],
+
+    "todohighlight.keywords": [
+
+        {
+            "text": "TODO:",
+            "backgroundColor": "rgba(170, 0, 0, .5)"
+        },
+        {
+            "text": "DONE:",
+            "color": "white",
+            "backgroundColor": "green"
+        }
+    ]
+}
