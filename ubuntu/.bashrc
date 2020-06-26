@@ -127,4 +127,4 @@ if ! shopt -oq posix; then
 fi
 
 # fun little cow to welcome me!
-cowsay -f moose "Welcome to the party" | lolcat
+cowsay -f moose "Welcome to the 🤡 fiesta!" | lolcat
