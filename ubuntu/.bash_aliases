@@ -4,6 +4,9 @@ alias clr='\clear'
 alias file='explorer.exe'
 alias untar='tar -xzvf'
 
+# WSL-specific aliases
+alias docs='cd /mnt/c/Users/aneek/Documents/'
+
 # Config file aliases
 alias vimrc='vim ~/.vim/vimrc'
 alias bashrc='vim ~/.bashrc'
@@ -36,3 +39,8 @@ weather () {
     curl "wttr.in/${loc}?${curr}${size}F"
 }
 
+cpdots () {
+    cp ~/.bashrc ~/dots/ubuntu/
+    cp ~/.bash_aliases ~/dots/ubuntu/
+    cp -r ~/.vim/vimrc ~/dots/ubuntu/.vim/
+}

@@ -21,6 +21,7 @@ set clipboard=unnamed       "Copy-paste from system clipboard
 autocmd BufWritePre * :%s/\s\+$//e  "Trim whitespace from end of lines
 
 " UI
+colorscheme zellner
 set number			"show line numbers
 syntax enable	    "enable syntax processing
 filetype plugin indent on	"filetype-based formatting on
