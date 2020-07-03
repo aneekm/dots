@@ -26,8 +26,8 @@ config. This includes:
 - `spotlight.ps1`, which is a PowerShell script I wrote to pull the recent 
     Windows 10 Spotlight (lock screen) images so I can pick out the ones I like
     as wallpapers. 
-    > I use this by placing it with my other CLI executables and creating a 
-    > shortcut to it on my desktop as:
+    > I use this by placing it with my other CLI executables and creating an
+    > alias to it in `init.cmd` as well as a shortcut to it on my desktop as:
     > `powershell.exe -command "& 'C:\Program Standalones\spotlight.ps1'`
 
 The `ubuntu` directory contains the same for my WSL 2 config:

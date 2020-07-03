@@ -14,5 +14,8 @@ doskey gl=git log --all --decorate --oneline --graph $*
 doskey file=explorer $1
 doskey ls=ls --color $*
 
+:: Get latest Spotlight images
+doskey spotlight=powershell.exe -command "& 'C:\Program Standalones\spotlight.ps1'"
+
 :: Editing these aliases
 doskey alias=notepad %USERPROFILE%\init.cmd &
