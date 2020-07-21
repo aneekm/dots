@@ -39,9 +39,17 @@ weather () {
     curl "wttr.in/${loc}?${curr}${size}F"
 }
 
-cpdots () {
+todots () {
     cp ~/.bashrc ~/dots/ubuntu/
     cp ~/.bash_aliases ~/dots/ubuntu/
     cp ~/.gitconfig ~/dots/ubuntu/
-    cp -r ~/.vim/vimrc ~/dots/ubuntu/.vim/
+    cp ~/.vim/vimrc ~/dots/ubuntu/.vim/
 }
+
+fromdots () {
+    cp ~/dots/ubuntu/.bashrc ~
+    cp ~/dots/ubuntu/.bash_aliases ~
+    cp ~/dots/ubuntu/.gitconfig ~
+    cp ~/dots/ubuntu/.vim/vimrc ~/.vim/
+}
+

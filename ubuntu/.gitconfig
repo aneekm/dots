@@ -4,4 +4,4 @@
 [core]
 	editor = vim
 [help]
-	autocorrect = 50
+	autocorrect = 20
