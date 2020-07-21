@@ -42,5 +42,6 @@ weather () {
 cpdots () {
     cp ~/.bashrc ~/dots/ubuntu/
     cp ~/.bash_aliases ~/dots/ubuntu/
+    cp ~/.gitconfig ~/dots/ubuntu/
     cp -r ~/.vim/vimrc ~/dots/ubuntu/.vim/
 }
