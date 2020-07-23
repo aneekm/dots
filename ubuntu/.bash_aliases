@@ -17,6 +17,7 @@ alias lolcat='lolcat -h 0.4 -v 0.8'
 
 # Git aliases
 alias gl='git log --all --decorate --oneline --graph'
+alias gs='git status'
 
 # Python aliases
 alias python='python3'

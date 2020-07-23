@@ -29,7 +29,7 @@ set lazyredraw		"don't redraw while running macros (faster)
 set showmatch		"Highlight matching braces
 set ruler			"Show bottom ruler stats
 set title           "Window title is filename
-set scrolloff=5     "Keep cursor within 5 lines from top and bottom
+set scrolloff=10    "Keep cursor within 5 lines from top and bottom
 set sidescrolloff=5 "Keep cursor within 5 lines from left and right
 set wrap            "Visually wrap long lines
 set linebreak       "Wrap on 'good' characters for wrapping

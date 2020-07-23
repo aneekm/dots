@@ -129,8 +129,8 @@ fi
 # add Rust-related environment variables
 # for some reason Rust requires these to be true
 # environment variables (ie. using export) to work
-export RUSTUP_HOME=".rust/.rustup"
-export CARGO_HOME=".rust/.cargo"
+export RUSTUP_HOME="$HOME/.rust/.rustup"
+export CARGO_HOME="$HOME/.rust/.cargo"
 
 # fun little cow to welcome me!
 cowsay -f moose "Welcome to the 🤡 fiesta!" | lolcat
