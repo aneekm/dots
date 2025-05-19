@@ -1,0 +1,10 @@
+[user]
+	name = Aneek 🙈
+	email = aneek@aneekm.com
+[core]
+	editor = vim
+	autocrlf = input
+[alias]
+	stashu = stash --keep-index --include-untracked
+[help]
+	autocorrect = 20
