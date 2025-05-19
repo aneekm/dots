@@ -1,10 +1,9 @@
-// Place your key bindings in this file to override the defaultsauto[]
+// Place your key bindings in this file to override the defaults
 [
     {
         "key": "ctrl+shift+b",
         "command": "multiCommand.runPythonREPL"
     },
-
     {
         "key": "ctrl+alt+b",
         "command": "markdown.extension.editing.toggleBold",
@@ -24,5 +23,15 @@
         "key": "ctrl+i",
         "command": "-markdown.extension.editing.toggleItalic",
         "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+[",
+        "command": "workbench.action.navigateBack",
+        "when": "canNavigateBack"
+    },
+    {
+        "key": "ctrl+]",
+        "command": "workbench.action.navigateForward",
+        "when": "canNavigateForward"
     }
 ]
