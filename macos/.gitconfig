@@ -5,6 +5,7 @@
 	editor = vim
 	autocrlf = input
 [alias]
+        changes = show --pretty="" --name-only
 	stashu = stash --keep-index --include-untracked
 [help]
 	autocorrect = 20
