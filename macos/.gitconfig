@@ -5,7 +5,8 @@
 	editor = vim
 	autocrlf = input
 [alias]
-        changes = show --pretty="" --name-only
+    changes = show --pretty="" --name-only
+    fdiff = diff HEAD^ HEAD --
 	stashu = stash --keep-index --include-untracked
 [help]
 	autocorrect = 20
