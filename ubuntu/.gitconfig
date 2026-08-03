@@ -11,4 +11,6 @@
     stashu = stash --keep-index --include-untracked
 [help]
     autocorrect = 20
+[push]
+    autoSetupRemote = true
 
